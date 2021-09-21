@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.display{
+  background-color: #433437;
+  height: 80px;
+  display: flex;
+  width: 230px;
+}
+.buttons{
+  width: 230px;
+}
+.cls{
+  width: 116px;
+  height: 50px;
+  font-size: 35px;
+  border: 1px solid black;
+}
+.red-btn-c{
+  width: 116px;
+  height: 50px;
+  background-color: #d12c4d;
+  color: white;
+  font-size: 35px;
+  border: 1px solid black;
+}
+.red-btn{
+  width: 57px;
+  height: 50px;
+  background-color: #d12c4d;
+  color: white;
+  font-size: 35px;
+  border: 1px solid black;
+}
+.num-btns{
+  border: 1px solid black;
+  width: 58px;
+  height: 50px;
+  font-size: 35px;
+}
+#input{
+  background-color: #433437;
+  color: white;
+  text-align: right;
+  width: 230px;
+}
